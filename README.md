@@ -7,7 +7,7 @@ Esse projeto foi criado com o intuito de facilitar a criação de novos projetos
 1. Execute o comando:
   `pnpm create next-app -e https://github.com/ruangustavo/next-boilerplate`
 
-## Tecnologia
+## Tecnologias
 
 - Next.js
 - Typescript
