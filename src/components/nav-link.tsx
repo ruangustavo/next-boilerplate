@@ -11,7 +11,7 @@ export function NavLink({ children, ...props }: NavLinkProps) {
 
   return (
     <Link
-      className="text-muted-foreground font-medium text-sm data-[current=true]:text-foreground data-[current=true]:font-medium hover:text-muted-foreground/80 transition-colors"
+      className="text-sm font-medium text-muted-foreground transition-colors hover:text-muted-foreground/80 data-[current=true]:font-medium data-[current=true]:text-foreground"
       data-current={pathname === props.href}
       {...props}
     >

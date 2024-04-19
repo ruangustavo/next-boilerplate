@@ -5,12 +5,12 @@ export default function Home() {
     <>
       <header className="border-b py-4">
         <div className="container">
-          <h1 className="font-semibold text-xl tracking-tight">
+          <h1 className="text-xl font-semibold tracking-tight">
             {siteConfig.title}
           </h1>
         </div>
       </header>
-      <main className="flex-1 pt-4 container space-y-8"></main>
+      <main className="container flex-1 space-y-8 pt-4"></main>
     </>
   )
 }
